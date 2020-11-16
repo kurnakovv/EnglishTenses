@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FeatureSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InterrativeFeatureSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InterrativePresentSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InterrgativePastSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MySimpleTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NegativeFeatureSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NegativePastSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NegativePresentSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PastSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PositiveFeatureSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PositivePastSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PositivePresentSimple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PresentSimple.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
