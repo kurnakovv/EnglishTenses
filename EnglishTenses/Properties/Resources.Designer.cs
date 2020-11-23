@@ -73,6 +73,16 @@ namespace EnglishTenses.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FutureContinuous {
+            get {
+                object obj = ResourceManager.GetObject("FutureContinuous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap InterrativeFeatureSimple {
             get {
                 object obj = ResourceManager.GetObject("InterrativeFeatureSimple", resourceCulture);
@@ -103,6 +113,46 @@ namespace EnglishTenses.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap InterrotiveFeatureContinuous {
+            get {
+                object obj = ResourceManager.GetObject("InterrotiveFeatureContinuous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InterrotivePastContinuous {
+            get {
+                object obj = ResourceManager.GetObject("InterrotivePastContinuous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InterrotivePresentContinuous {
+            get {
+                object obj = ResourceManager.GetObject("InterrotivePresentContinuous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MyContinuousTable {
+            get {
+                object obj = ResourceManager.GetObject("MyContinuousTable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MySimpleTable {
             get {
                 object obj = ResourceManager.GetObject("MySimpleTable", resourceCulture);
@@ -123,6 +173,26 @@ namespace EnglishTenses.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap NegativeFutureContinuous {
+            get {
+                object obj = ResourceManager.GetObject("NegativeFutureContinuous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NegativePastContinuous {
+            get {
+                object obj = ResourceManager.GetObject("NegativePastContinuous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NegativePastSimple {
             get {
                 object obj = ResourceManager.GetObject("NegativePastSimple", resourceCulture);
@@ -133,9 +203,29 @@ namespace EnglishTenses.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap NegativePresentContinuous {
+            get {
+                object obj = ResourceManager.GetObject("NegativePresentContinuous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NegativePresentSimple {
             get {
                 object obj = ResourceManager.GetObject("NegativePresentSimple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PastContinuous {
+            get {
+                object obj = ResourceManager.GetObject("PastContinuous", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +253,26 @@ namespace EnglishTenses.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PositiveFutureContinuous {
+            get {
+                object obj = ResourceManager.GetObject("PositiveFutureContinuous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PositivePastContinuous {
+            get {
+                object obj = ResourceManager.GetObject("PositivePastContinuous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PositivePastSimple {
             get {
                 object obj = ResourceManager.GetObject("PositivePastSimple", resourceCulture);
@@ -173,9 +283,29 @@ namespace EnglishTenses.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PositivePresentContinuous {
+            get {
+                object obj = ResourceManager.GetObject("PositivePresentContinuous", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PositivePresentSimple {
             get {
                 object obj = ResourceManager.GetObject("PositivePresentSimple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PresentContinuous {
+            get {
+                object obj = ResourceManager.GetObject("PresentContinuous", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
