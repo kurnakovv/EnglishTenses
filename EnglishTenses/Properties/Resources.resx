@@ -124,8 +124,20 @@
   <data name="FutureContinuous" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FutureContinuous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FuturePerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FuturePerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InterrativeFeaturePerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InterrativeFeaturePerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="InterrativeFeatureSimple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InterrativeFeatureSimple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InterrativePastPerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InterrativePastPerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InterrativePresentPerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InterrativePresentPerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="InterrativePresentSimple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\InterrativePresentSimple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,6 +157,9 @@
   <data name="MyContinuousTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MyContinuousTable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MyPerfectTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MyPerfectTable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MySimpleTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MySimpleTable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,8 +169,14 @@
   <data name="NegativeFutureContinuous" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NegativeFutureContinuous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NegativeFuturePerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NegativeFuturePerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="NegativePastContinuous" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NegativePastContinuous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NegativePastPerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NegativePastPerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NegativePastSimple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NegativePastSimple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,11 +184,17 @@
   <data name="NegativePresentContinuous" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NegativePresentContinuous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NegativePresentPerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NegativePresentPerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="NegativePresentSimple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NegativePresentSimple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PastContinuous" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PastContinuous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PastPerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PastPerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PastSimple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PastSimple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,8 +205,14 @@
   <data name="PositiveFutureContinuous" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PositiveFutureContinuous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PositiveFuturePerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PositiveFuturePerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PositivePastContinuous" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PositivePastContinuous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PositivePastPerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PositivePastPerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PositivePastSimple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PositivePastSimple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,11 +220,17 @@
   <data name="PositivePresentContinuous" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PositivePresentContinuous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PositivePresentPerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PositivePresentPerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PositivePresentSimple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PositivePresentSimple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PresentContinuous" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PresentContinuous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PresentPerfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PresentPerfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PresentSimple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PresentSimple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

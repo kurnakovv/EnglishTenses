@@ -158,5 +158,44 @@
   <ItemGroup>
     <None Include="Resources\PresentContinuous.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PresentPerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FuturePerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InterrativeFeaturePerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InterrativePastPerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InterrativePresentPerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyPerfectTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NegativeFuturePerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NegativePastPerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NegativePresentPerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PastPerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PositiveFuturePerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PositivePastPerfect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PositivePresentPerfect.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
