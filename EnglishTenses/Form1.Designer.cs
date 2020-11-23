@@ -227,6 +227,7 @@
             this.perfectToolStripMenuItem.Name = "perfectToolStripMenuItem";
             this.perfectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.perfectToolStripMenuItem.Text = "Perfect";
+            this.perfectToolStripMenuItem.Click += new System.EventHandler(this.perfectToolStripMenuItem_Click);
             // 
             // futureToolStripMenuItem1
             // 
@@ -237,8 +238,9 @@
             this.toolStripMenuItem15,
             this.toolStripMenuItem16});
             this.futureToolStripMenuItem1.Name = "futureToolStripMenuItem1";
-            this.futureToolStripMenuItem1.Size = new System.Drawing.Size(108, 22);
+            this.futureToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.futureToolStripMenuItem1.Text = "Future";
+            this.futureToolStripMenuItem1.Click += new System.EventHandler(this.futureToolStripMenuItem1_Click);
             // 
             // presentToolStripMenuItem1
             // 
@@ -249,8 +251,9 @@
             this.toolStripMenuItem18,
             this.toolStripMenuItem19});
             this.presentToolStripMenuItem1.Name = "presentToolStripMenuItem1";
-            this.presentToolStripMenuItem1.Size = new System.Drawing.Size(113, 22);
+            this.presentToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.presentToolStripMenuItem1.Text = "Present";
+            this.presentToolStripMenuItem1.Click += new System.EventHandler(this.presentToolStripMenuItem1_Click);
             // 
             // pastToolStripMenuItem1
             // 
@@ -258,69 +261,79 @@
             this.pastToolStripMenuItem1.Name = "pastToolStripMenuItem1";
             this.pastToolStripMenuItem1.Size = new System.Drawing.Size(96, 22);
             this.pastToolStripMenuItem1.Text = "Past";
+            this.pastToolStripMenuItem1.Click += new System.EventHandler(this.pastToolStripMenuItem1_Click);
             // 
             // toolStripMenuItem17
             // 
             this.toolStripMenuItem17.BackColor = System.Drawing.Color.Yellow;
             this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(96, 22);
+            this.toolStripMenuItem17.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem17.Text = "?";
+            this.toolStripMenuItem17.Click += new System.EventHandler(this.toolStripMenuItem17_Click);
             // 
             // toolStripMenuItem18
             // 
             this.toolStripMenuItem18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(96, 22);
+            this.toolStripMenuItem18.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem18.Text = "+";
+            this.toolStripMenuItem18.Click += new System.EventHandler(this.toolStripMenuItem18_Click);
             // 
             // toolStripMenuItem19
             // 
             this.toolStripMenuItem19.BackColor = System.Drawing.Color.Red;
             this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-            this.toolStripMenuItem19.Size = new System.Drawing.Size(96, 22);
+            this.toolStripMenuItem19.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem19.Text = "---";
+            this.toolStripMenuItem19.Click += new System.EventHandler(this.toolStripMenuItem19_Click);
             // 
             // toolStripMenuItem14
             // 
             this.toolStripMenuItem14.BackColor = System.Drawing.Color.Yellow;
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(113, 22);
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem14.Text = "?";
+            this.toolStripMenuItem14.Click += new System.EventHandler(this.toolStripMenuItem14_Click);
             // 
             // toolStripMenuItem15
             // 
             this.toolStripMenuItem15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(113, 22);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem15.Text = "+";
+            this.toolStripMenuItem15.Click += new System.EventHandler(this.toolStripMenuItem15_Click);
             // 
             // toolStripMenuItem16
             // 
             this.toolStripMenuItem16.BackColor = System.Drawing.Color.Red;
             this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(113, 22);
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem16.Text = "---";
+            this.toolStripMenuItem16.Click += new System.EventHandler(this.toolStripMenuItem16_Click);
             // 
             // toolStripMenuItem11
             // 
             this.toolStripMenuItem11.BackColor = System.Drawing.Color.Yellow;
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(108, 22);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem11.Text = "?";
+            this.toolStripMenuItem11.Click += new System.EventHandler(this.toolStripMenuItem11_Click);
             // 
             // toolStripMenuItem12
             // 
             this.toolStripMenuItem12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(108, 22);
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem12.Text = "+";
+            this.toolStripMenuItem12.Click += new System.EventHandler(this.toolStripMenuItem12_Click);
             // 
             // toolStripMenuItem13
             // 
             this.toolStripMenuItem13.BackColor = System.Drawing.Color.Red;
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(108, 22);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem13.Text = "---";
+            this.toolStripMenuItem13.Click += new System.EventHandler(this.toolStripMenuItem13_Click);
             // 
             // continiosToolStripMenuItem
             // 
@@ -343,7 +356,7 @@
             this.toolStripMenuItem24,
             this.toolStripMenuItem25});
             this.futureToolStripMenuItem2.Name = "futureToolStripMenuItem2";
-            this.futureToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.futureToolStripMenuItem2.Size = new System.Drawing.Size(108, 22);
             this.futureToolStripMenuItem2.Text = "Future";
             this.futureToolStripMenuItem2.Click += new System.EventHandler(this.futureToolStripMenuItem2_Click);
             // 
@@ -356,7 +369,7 @@
             this.toolStripMenuItem27,
             this.toolStripMenuItem28});
             this.perfectToolStripMenuItem1.Name = "perfectToolStripMenuItem1";
-            this.perfectToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.perfectToolStripMenuItem1.Size = new System.Drawing.Size(113, 22);
             this.perfectToolStripMenuItem1.Text = "Present";
             this.perfectToolStripMenuItem1.Click += new System.EventHandler(this.perfectToolStripMenuItem1_Click);
             // 
@@ -364,7 +377,7 @@
             // 
             this.pastToolStripMenuItem2.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.pastToolStripMenuItem2.Name = "pastToolStripMenuItem2";
-            this.pastToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.pastToolStripMenuItem2.Size = new System.Drawing.Size(96, 22);
             this.pastToolStripMenuItem2.Text = "Past";
             this.pastToolStripMenuItem2.Click += new System.EventHandler(this.pastToolStripMenuItem2_Click);
             // 
@@ -372,7 +385,7 @@
             // 
             this.toolStripMenuItem26.BackColor = System.Drawing.Color.Yellow;
             this.toolStripMenuItem26.Name = "toolStripMenuItem26";
-            this.toolStripMenuItem26.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem26.Size = new System.Drawing.Size(96, 22);
             this.toolStripMenuItem26.Text = "?";
             this.toolStripMenuItem26.Click += new System.EventHandler(this.toolStripMenuItem26_Click);
             // 
@@ -380,7 +393,7 @@
             // 
             this.toolStripMenuItem27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.toolStripMenuItem27.Name = "toolStripMenuItem27";
-            this.toolStripMenuItem27.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem27.Size = new System.Drawing.Size(96, 22);
             this.toolStripMenuItem27.Text = "+";
             this.toolStripMenuItem27.Click += new System.EventHandler(this.toolStripMenuItem27_Click);
             // 
@@ -388,7 +401,7 @@
             // 
             this.toolStripMenuItem28.BackColor = System.Drawing.Color.Red;
             this.toolStripMenuItem28.Name = "toolStripMenuItem28";
-            this.toolStripMenuItem28.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem28.Size = new System.Drawing.Size(96, 22);
             this.toolStripMenuItem28.Text = "---";
             this.toolStripMenuItem28.Click += new System.EventHandler(this.toolStripMenuItem28_Click);
             // 
@@ -396,7 +409,7 @@
             // 
             this.toolStripMenuItem23.BackColor = System.Drawing.Color.Yellow;
             this.toolStripMenuItem23.Name = "toolStripMenuItem23";
-            this.toolStripMenuItem23.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem23.Size = new System.Drawing.Size(113, 22);
             this.toolStripMenuItem23.Text = "?";
             this.toolStripMenuItem23.Click += new System.EventHandler(this.toolStripMenuItem23_Click);
             // 
@@ -404,7 +417,7 @@
             // 
             this.toolStripMenuItem24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.toolStripMenuItem24.Name = "toolStripMenuItem24";
-            this.toolStripMenuItem24.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem24.Size = new System.Drawing.Size(113, 22);
             this.toolStripMenuItem24.Text = "+";
             this.toolStripMenuItem24.Click += new System.EventHandler(this.toolStripMenuItem24_Click);
             // 
@@ -412,7 +425,7 @@
             // 
             this.toolStripMenuItem25.BackColor = System.Drawing.Color.Red;
             this.toolStripMenuItem25.Name = "toolStripMenuItem25";
-            this.toolStripMenuItem25.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem25.Size = new System.Drawing.Size(113, 22);
             this.toolStripMenuItem25.Text = "---";
             this.toolStripMenuItem25.Click += new System.EventHandler(this.toolStripMenuItem25_Click);
             // 
@@ -420,7 +433,7 @@
             // 
             this.toolStripMenuItem20.BackColor = System.Drawing.Color.Yellow;
             this.toolStripMenuItem20.Name = "toolStripMenuItem20";
-            this.toolStripMenuItem20.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem20.Size = new System.Drawing.Size(108, 22);
             this.toolStripMenuItem20.Text = "?";
             this.toolStripMenuItem20.Click += new System.EventHandler(this.toolStripMenuItem20_Click);
             // 
@@ -428,7 +441,7 @@
             // 
             this.toolStripMenuItem21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.toolStripMenuItem21.Name = "toolStripMenuItem21";
-            this.toolStripMenuItem21.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem21.Size = new System.Drawing.Size(108, 22);
             this.toolStripMenuItem21.Text = "+";
             this.toolStripMenuItem21.Click += new System.EventHandler(this.toolStripMenuItem21_Click);
             // 
@@ -436,7 +449,7 @@
             // 
             this.toolStripMenuItem22.BackColor = System.Drawing.Color.Red;
             this.toolStripMenuItem22.Name = "toolStripMenuItem22";
-            this.toolStripMenuItem22.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem22.Size = new System.Drawing.Size(108, 22);
             this.toolStripMenuItem22.Text = "---";
             this.toolStripMenuItem22.Click += new System.EventHandler(this.toolStripMenuItem22_Click);
             // 

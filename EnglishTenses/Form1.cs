@@ -120,6 +120,108 @@ namespace EnglishTenses
 
         #endregion
 
+        #region Perfect
+
+        #region PerfectTable
+
+        private void perfectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.MyPerfectTable,
+                             "Perfect (Совершенное)");
+        }
+
+        #endregion
+
+        #region FuturePresentPastTable
+
+        private void futureToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.FuturePerfect,
+                             "Future Perfect (Будующее совершенное)");
+        }
+
+        private void presentToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.PresentPerfect,
+                             "Present Perfect (Настоящее совершенное)");
+        }
+
+        private void pastToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.PastPerfect,
+                             "Past Perfect (Прошедшее совершенное)");
+        }
+
+        #endregion
+
+        #region Future ?+-
+
+        private void toolStripMenuItem11_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.InterrativeFeaturePerfect,
+                             "Interrogative future perfect (Вопросительное будующее совершенное)");
+        }
+
+        private void toolStripMenuItem12_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.PositiveFuturePerfect,
+                             "Positive future perfect (Утвердительное будующее совершенное)");
+        }
+
+        private void toolStripMenuItem13_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.NegativeFuturePerfect,
+                             "Negative future perfect (Отрицательное будующее совершенное)");
+        }
+
+        #endregion
+
+        #region Present ?+-
+
+        private void toolStripMenuItem14_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.InterrativePresentPerfect,
+                             "Interrogative present perfect (Вопросительное настоящее совершенное)");
+        }
+
+        private void toolStripMenuItem15_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.PositivePresentPerfect,
+                             "Positive present perfect (Утвердительное настоящее совершенное)");
+        }
+
+        private void toolStripMenuItem16_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.NegativePresentPerfect,
+                             "Negative present perfect (Отрицательное настоящее совершенное)");
+        }
+
+        #endregion
+
+        #region Past ?+-
+
+        private void toolStripMenuItem17_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.InterrativeFeaturePerfect,
+                             "Interrogative past perfect (Вопросительное прошедшее совершенное)");
+        }
+
+        private void toolStripMenuItem18_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.PositivePresentPerfect,
+                             "Positive past perfect (Утвердительное прошедшее совершенное)");
+        }
+
+        private void toolStripMenuItem19_Click(object sender, EventArgs e)
+        {
+            SetContentInForm(Resources.NegativePastPerfect,
+                             "Negative past perfect (Отрицательное прошедшее совершенное)");
+        }
+
+        #endregion
+
+        #endregion
+
         #region Continuous
 
         #region ContinuousTable
@@ -221,11 +323,11 @@ namespace EnglishTenses
         #endregion
 
         #endregion
-
+        
         private void SetContentInForm(Bitmap image, string title)
         {
             pictureBox1.Image = image;
             label1.Text = title;
-        }        
+        }       
     }
 }
