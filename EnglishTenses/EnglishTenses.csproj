@@ -119,5 +119,44 @@
   <ItemGroup>
     <None Include="Resources\PresentSimple.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FutureContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InterrotiveFeatureContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InterrotivePastContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InterrotivePresentContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MyContinuousTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NegativeFutureContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NegativePastContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NegativePresentContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PastContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PositiveFutureContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PositivePastContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PositivePresentContinuous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PresentContinuous.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
